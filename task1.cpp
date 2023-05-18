@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include "task1.h"
+#include "header.h"
 using namespace std;
 
 void task1(vector<int>& arr)

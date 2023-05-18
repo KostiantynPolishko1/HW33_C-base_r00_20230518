@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="checkV.cpp" />
     <ClCompile Include="main_HW33.cpp" />
     <ClCompile Include="task1.cpp" />
+    <ClCompile Include="task2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="task1.h" />
+    <ClInclude Include="header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
