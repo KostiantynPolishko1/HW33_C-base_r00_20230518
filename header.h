@@ -12,6 +12,7 @@ vector<int> task4(int& size);
 vector<string> task5(vector<string>& lang);
 vector<int> task6();
 vector<int> task7(vector<int>& arr);
+bool task8(int &size);
 
 int checkV();
 

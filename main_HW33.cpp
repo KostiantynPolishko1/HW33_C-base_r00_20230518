@@ -33,6 +33,8 @@ using namespace std;
 //Implement a function that takes a vector of numbersand returns a new vector,
 //containing only numbers that are squares of other numbers from the original vector.
 
+//Task8
+
 int main()
 {
 	//=========TASK1=========
@@ -90,6 +92,15 @@ int main()
 	cout << "\n After  :\t";
 	for (auto i : num)
 		cout << i << " ";*/
+
+	//=========TASK8=========
+	cout << "\n Enter size of vectors: ";
+	int size = checkV();
+
+	if (task8(size))
+		cout << "\n\tIS PALIDROM\n";
+	else
+		cout << "\n\tIS NOT PALIDROM\n";
 
 	return 0;
 }
