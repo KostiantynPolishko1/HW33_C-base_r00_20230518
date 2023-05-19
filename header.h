@@ -8,6 +8,7 @@ void task1(vector<int> &arr);
 void task2(int &size);
 vector<int> task3(vector<int>& arr, vector<int>& arr2);
 vector<int> task4(int& size);
+vector<string> task5(vector<string>& lang);
 
 int checkV();
 

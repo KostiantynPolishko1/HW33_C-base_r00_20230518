@@ -1,6 +1,7 @@
 #include<iostream>
 #include<ctime>
 #include<vector>
+#include<algorithm>
 #include "header.h"
 using namespace std;
 
@@ -13,16 +14,7 @@ void task2(int& size)
 	for (int i = 0; i < size; i++)
 		num.push_back(1 + rand() % 99);
 
-	for (int i = 0; i < size; i++)
-	{
-		int imin = i;
-		for (int j = i + 1; j < size; j++)
-		{
-			if (num[j] > num[imin])
-				imin = j;
-		}
-		swap(num[i], num[imin]);
-	}
+	sort(num.rbegin(), num.rend());
 
 	cout << "Descending array is: ";
 	for (auto i : num)

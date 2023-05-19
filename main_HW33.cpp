@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 #include<vector>
 #include"header.h"
 using namespace std;
@@ -17,8 +18,11 @@ using namespace std;
 //containing elements that are only present in one of the vectors(excluding common elements).
 
 //Task4
-//Напишите программу, которая запрашивает у пользователя размер вектора и затем заполняет его значениями. 
-//После этого программа должна удалить все повторяющиеся элементы из вектора и вывести на экран обновленный вектор.
+//Write a program that asks the user for the size of the vector and then fills it with values. 
+//The program should then remove any repeating elements from the vectorand display the updated vector.
+
+//Task5
+
 
 int main()
 {
@@ -55,6 +59,14 @@ int main()
 		cout << i << " ";
 	cout << endl;
 	*/
+
+	//=========TASK5=========
+	vector<string> lang{ "Hello", "word", "name", "work", "student", "study", "academy" };
+
+	task5(lang);
+	cout << "\nAfter:  ";
+	for (auto& i : lang)
+		cout << i << " ";
 
 	return 0;
 }
