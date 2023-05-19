@@ -16,6 +16,10 @@ using namespace std;
 //Implement a function that takes two vectors of integers and returns a new vector,
 //containing elements that are only present in one of the vectors(excluding common elements).
 
+//Task4
+//Напишите программу, которая запрашивает у пользователя размер вектора и затем заполняет его значениями. 
+//После этого программа должна удалить все повторяющиеся элементы из вектора и вывести на экран обновленный вектор.
+
 int main()
 {
 	//=========TASK1=========
@@ -37,6 +41,20 @@ int main()
 	for (auto i : num3)
 		cout << i << " ";
 	cout << endl;*/
+
+	//=========TASK4=========
+	/*
+	int size = 0;
+	cout << "Enter size of array: ";
+	size = checkV();
+
+	vector<int> num(task4(size));
+
+	cout << "\nAfter:  ";
+	for (auto i : num)
+		cout << i << " ";
+	cout << endl;
+	*/
 
 	return 0;
 }
