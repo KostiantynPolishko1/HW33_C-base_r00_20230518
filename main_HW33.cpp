@@ -13,19 +13,30 @@ using namespace std;
 //Sort the vector in descending order and display the sorted vector on the screen.
 
 //Task3
-//Реализуйте функцию, которая принимает два вектора целых чисел и возвращает новый вектор,
-//содержащий элементы, которые присутствуют только в одном из векторов(исключая общие элементы).
+//Implement a function that takes two vectors of integers and returns a new vector,
+//containing elements that are only present in one of the vectors(excluding common elements).
 
 int main()
 {
+	//=========TASK1=========
 	//vector <int> num{0, 1, 1, 2, 3, 4, 5, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 15, 16, 18, 19, 19, 20};
 	//task1(num);
 
+	//=========TASK2=========
 	/*int size = 0;
 	cout << "Enter size of array: ";
 	size = checkV();
 	task2(size);*/
 
+	//=========TASK3=========
+	/*vector<int> num{1, 2, 33, 4, 52, 6, 73, 80, 89, 10};
+	vector<int> num2{ 33, 2, 3, 44, 35, 6, 7, 80, 90, 100, 21, 22, 2, 44 };
+	vector<int> num3(task3(num, num2));
+
+	cout << "\nAfter:  ";
+	for (auto i : num3)
+		cout << i << " ";
+	cout << endl;*/
 
 	return 0;
 }

@@ -131,6 +131,7 @@
     <ClCompile Include="main_HW33.cpp" />
     <ClCompile Include="task1.cpp" />
     <ClCompile Include="task2.cpp" />
+    <ClCompile Include="task3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
