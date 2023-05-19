@@ -22,6 +22,10 @@ using namespace std;
 //The program should then remove any repeating elements from the vectorand display the updated vector.
 
 //Task5
+//Implement a function that takes a vector of stringsand returns a new vector,
+//containing only strings that start with a certain substring(specified by the user).
+
+//Task6
 
 
 int main()
@@ -61,11 +65,17 @@ int main()
 	*/
 
 	//=========TASK5=========
-	vector<string> lang{ "Hello", "word", "name", "work", "student", "study", "academy" };
+	/*vector<string> lang{ "Hello", "word", "name", "work", "student", "study", "academy" };
 
 	task5(lang);
 	cout << "\nAfter:  ";
 	for (auto& i : lang)
+		cout << i << " ";*/
+
+	//=========TASK6=========
+	vector<int> num(task6());
+	cout << "\n Vector1 x Vector2:\t";
+	for (auto i : num)
 		cout << i << " ";
 
 	return 0;
