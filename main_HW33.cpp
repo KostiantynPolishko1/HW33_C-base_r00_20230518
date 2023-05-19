@@ -26,7 +26,12 @@ using namespace std;
 //containing only strings that start with a certain substring(specified by the user).
 
 //Task6
+//Write a program that asks the user for two vectors of numbers of the same size.
+//Multiply the corresponding elements from each vectorand display the result.
 
+//Task7
+//Implement a function that takes a vector of numbersand returns a new vector,
+//containing only numbers that are squares of other numbers from the original vector.
 
 int main()
 {
@@ -73,10 +78,18 @@ int main()
 		cout << i << " ";*/
 
 	//=========TASK6=========
-	vector<int> num(task6());
+	/*vector<int> num(task6());
 	cout << "\n Vector1 x Vector2:\t";
 	for (auto i : num)
-		cout << i << " ";
+		cout << i << " ";*/
+
+	//=========TASK7=========
+	/*vector<int> num{ 1, 2, 3, 4, 9, 10, 11, 16, 18, 24,25 };
+	task7(num);
+
+	cout << "\n After  :\t";
+	for (auto i : num)
+		cout << i << " ";*/
 
 	return 0;
 }
