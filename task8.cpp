@@ -13,9 +13,7 @@ bool task8(int &size)
 	for (int i = 0; i < size; i++)
 		num.push_back(1 + rand() % 99);
 
-	cout << "\n Vector: ";
-	for (auto i : num)
-		cout << i << " ";
+	print(num, 0);
 
 	for (int i = 0; i < num.size() / 2; i++)
 		if (*(num.cbegin() + i) != *(num.cend() - 1 - i))

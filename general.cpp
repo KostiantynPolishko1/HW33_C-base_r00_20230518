@@ -1,7 +1,8 @@
 #include<iostream>
 #include<cstdint>
+#include<vector>
+#include<string>
 #include "header.h"
-
 using namespace std;
 
 int checkV()
@@ -24,4 +25,20 @@ int checkV()
 	}
 
 	return 0;
+}
+
+void print(vector<int>& arr, int n)
+{
+	cout << (n == 0? "\n Vector: " : (n == 1 ? "\n Before: " : "\n After : "));
+	for (auto i : arr)
+		cout << i << " ";
+	cout << endl;
+}
+
+void print(vector<string>& arr, int n)
+{
+	cout << (n == 0? "\n Vector: " : (n == 1 ? "\n Before: " : "\n After : "));
+	for (auto i : arr)
+		cout << i << " ";
+	cout << endl;
 }

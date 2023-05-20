@@ -14,10 +14,7 @@ vector<int> task4(int& size)
 	for (int i = 0; i < size; i++)
 		num.push_back(1 + rand() % 99);
 
-	cout << "\nBefore: ";
-	for (auto i : num)
-		cout << i << " ";
-	cout << endl;
+	print(num, 1);
 
 	auto end = num.end();
 	for (auto it = num.begin(); it != end; it++)

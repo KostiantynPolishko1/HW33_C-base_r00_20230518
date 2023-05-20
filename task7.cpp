@@ -6,10 +6,6 @@ using namespace std;
 
 vector<int> task7(vector<int> &arr)
 {
-	cout << "\n Before :\t";
-	for (auto i : arr)
-		cout << i << " ";
-
 	for (int i = 0; i < arr.size(); i++)
 	{
 		int x = sqrt(arr[i]);
@@ -19,7 +15,6 @@ vector<int> task7(vector<int> &arr)
 			arr.erase(iter + i);
 			i--;
 		}
-
 	}
 
 	return arr;

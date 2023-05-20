@@ -8,12 +8,8 @@ vector<string> task5(vector<string>& lang)
 {
 	string str{};
 
-	cout << "\nBefore: ";
-	for (auto& i : lang)
-		cout << i << " ";
-
 	cout 
-		<< "\n\n For delete words from list."
+		<< "\n For delete words from list."
 		<< "\n\tEnter the txt: ";
 	cin >> str;
 	cin.ignore(32767, '\n');

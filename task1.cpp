@@ -1,9 +1,9 @@
 #include<iostream>
 #include<vector>
-#include "header.h"
+#include"header.h"
 using namespace std;
 
-void task1(vector<int>& arr)
+vector<int>  task1(vector<int>& arr)
 {
 	for (int i = 0; i < arr.size(); i++)
 	{
@@ -24,6 +24,5 @@ void task1(vector<int>& arr)
 			}
 	}
 
-	for (auto i : arr)
-		cout << i << " ";
+	return arr;
 }
